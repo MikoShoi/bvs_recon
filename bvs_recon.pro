@@ -13,11 +13,11 @@ SOURCES += main.cpp \
   #-- miko libraries
 unix:!macx
 {
-  MIKO_CGAL       = $$PWD/../../MikoLibraries/MikoCgal
+  MIKO_CGAL       = $$PWD/../../c++/libraries/MikoLibraries/MikoCgal
   MIKO_CGAL_LIB   = $$MIKO_CGAL/build/target
   MIKO_CGAL_INC   = $$MIKO_CGAL/library
 
-  MIKO_TOOLS      = $$PWD/../../MikoLibraries/MikoTools
+  MIKO_TOOLS      = $$PWD/../../c++/libraries/MikoLibraries/MikoTools
   MIKO_TOOLS_LIB  = $$MIKO_TOOLS/build/target
   MIKO_TOOLS_INC  = $$MIKO_TOOLS/library
 
